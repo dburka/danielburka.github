@@ -1271,3 +1271,29 @@ hr {
   footer {
     top: 40px;
     right: 40px; } }
+
+/* For large devices up to 1400px: fonts ~20% smaller */
+@media (min-width: 1000px) and (max-width: 1399px) {
+  body {
+    font-size: 18px; }
+
+  h1 {
+    font-size: 52px; }
+
+  h2 {
+    font-size: 29px; }
+
+  .feature h3 {
+    font-size: 29px; }
+
+  .intro {
+    font-size: 24px; }
+
+  .story strong {
+    font-size: 34px; }
+
+  .reading a span {
+    font-size: 16px; }
+
+  .reading .new {
+    font-size: 8px; } }
